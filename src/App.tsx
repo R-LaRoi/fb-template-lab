@@ -17,7 +17,7 @@ function App() {
       ))}
 
       {footerMenu.map((link:any, index:number)=> (
-<Footer menu={link} key={index} label="Valet Industries,Inc" />
+<Footer menu={link} key={index} />
       ))}
 
    </>

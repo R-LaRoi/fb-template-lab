@@ -16,13 +16,11 @@ export function Post ({ post }:PostProps){
 const {date,title,image,content} = post
 
 return (
-<section>
-<div>{date}</div>
-<div>{title}</div>
+<section className="post-section">
+<div className="date">{date}</div>
+<div className = "post-title">{title}</div>
 <div><img src={image} alt="" /></div>
-<div>{content}</div>
-
-
+<div className="content">{content}</div>
 
 </section>
 
