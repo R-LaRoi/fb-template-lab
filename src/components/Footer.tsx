@@ -1,20 +1,23 @@
 
+import {Nav} from "./Nav"
+
 interface FooterProps{
-menu: string[];
+label: string;
 
 
 }
+const navMenu = [ "Womens", "Men's", "On The Street", "The Catwalk", "AdWatch", "About"]
 
-
-export function Footer({menu}: FooterProps){
+export function Footer({label}: FooterProps){
 
 return(
 
-<footer>
-    <ul className="over">
-    <li>{menu}</li>
-    </ul>
-</footer>
+<div className="links">
+    <hr/>
+        <Nav  menu={navMenu}/>
+        <small>{label}</small>
+</div>
+
 )
 
 

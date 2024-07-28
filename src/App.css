@@ -64,3 +64,10 @@ ul {
   margin: 0.1em 0.1em 0.1em 0;
   padding: 0.1em;
 }
+
+hr {
+  margin-bottom: 10%;
+}
+.links {
+  margin-top: 5%;
+}
