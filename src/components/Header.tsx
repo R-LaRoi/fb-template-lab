@@ -13,8 +13,8 @@ export function Header({title,sub_title}: HeaderProps){
 return(
 
   <section>
-    <h1>  {title} </h1>
-    <h3>{sub_title}</h3>
+    <h1 className="main-title">  {title} </h1>
+    <h3 className="sub-main">{sub_title}</h3>
     <Nav  menu={navMenu}/>
   </section>
 

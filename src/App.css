@@ -1,0 +1,36 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding: 2rem;
+}
+
+img {
+  width: 100%;
+}
+.main-title {
+  color: #df4339;
+  font-size: 5rem;
+  font-weight: 300;
+  line-height: 0;
+}
+
+.sub-main {
+  font-size: 2rem;
+  line-height: 0;
+  font-weight: 300;
+}
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gainsboro;
+  font-size: 1.3rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  color: rgb(153, 153, 153);
+}
